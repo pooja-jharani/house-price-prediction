@@ -11,5 +11,3 @@ venv/
 .DS_Store
 .env
 
-# Trained artifacts are reproducible with `make train`
-models/*.joblib

@@ -1,10 +1,13 @@
 ﻿# 🏠 House Price Prediction
 
+**[Live demo](https://house-price-prediction-h5mxjmd69hknbztdq79nyk.streamlit.app)**
+
 [![CI](https://github.com/pooja-jharani/house-price-prediction/actions/workflows/ci.yml/badge.svg)](https://github.com/pooja-jharani/house-price-prediction/actions)
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
 An end-to-end regression project: data generation and validation → EDA → leakage-safe preprocessing → cross-validated model comparison → hyper-parameter tuning → evaluation and explainability → a CLI and an interactive demo app.
+**[🚀 Live demo](https://house-price-prediction-h5mxjmd69hknbztdq79nyk.streamlit.app)**
 
 **Headline result:** a tuned Random Forest reaches **R² = 0.960**, **MAE ≈ ₹276k**, **MAPE ≈ 5.1%** on a held-out test set.
 

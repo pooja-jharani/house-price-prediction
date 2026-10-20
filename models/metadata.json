@@ -1,0 +1,55 @@
+{
+  "model_name": "RandomForest (tuned)",
+  "trained_at": "2026-10-19T15:27:36+00:00",
+  "package_version": "1.0.0",
+  "sklearn_version": "1.8.0",
+  "features": [
+    "area_sqft",
+    "bedrooms",
+    "bathrooms",
+    "age_years",
+    "distance_to_city_km",
+    "location"
+  ],
+  "target": "price",
+  "n_train": 960,
+  "n_test": 240,
+  "test_metrics": {
+    "rmse": 519215.2789687638,
+    "mae": 276066.62989944307,
+    "mape": 0.05095800225751634,
+    "r2": 0.9597128305868644
+  },
+  "feature_importance": [
+    {
+      "feature": "area_sqft",
+      "mean": 1.49723,
+      "std": 0.10164
+    },
+    {
+      "feature": "location",
+      "mean": 0.53176,
+      "std": 0.03963
+    },
+    {
+      "feature": "bedrooms",
+      "mean": 0.0052,
+      "std": 0.00046
+    },
+    {
+      "feature": "bathrooms",
+      "mean": 0.0037,
+      "std": 0.00081
+    },
+    {
+      "feature": "distance_to_city_km",
+      "mean": 0.00069,
+      "std": 0.0014
+    },
+    {
+      "feature": "age_years",
+      "mean": -0.00109,
+      "std": 0.00084
+    }
+  ]
+}

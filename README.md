@@ -1,6 +1,6 @@
-# 🏠 House Price Prediction
+﻿# 🏠 House Price Prediction
 
-[![CI](https://github.com/<your-username>/house-price-prediction/actions/workflows/ci.yml/badge.svg)](https://github.com/<your-username>/house-price-prediction/actions)
+[![CI](https://github.com/pooja-jharani/house-price-prediction/actions/workflows/ci.yml/badge.svg)](https://github.com/pooja-jharani/house-price-prediction/actions)
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
@@ -21,7 +21,7 @@ An end-to-end regression project: data generation and validation → EDA → lea
 ## Quick start
 
 ```bash
-git clone https://github.com/<your-username>/house-price-prediction.git
+git clone https://github.com/pooja-jharani/house-price-prediction.git
 cd house-price-prediction
 python -m venv .venv && source .venv/bin/activate
 pip install -e ".[dev,app]"
@@ -136,3 +136,4 @@ Replace `data/raw/houses.csv` with a CSV that has the same columns (`area_sqft, 
 ## License
 
 MIT. See [LICENSE](LICENSE).
+
